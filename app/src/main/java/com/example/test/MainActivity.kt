@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         var helloText : TextView = findViewById(R.id.textView1)
         var helloButton : Button = findViewById(R.id.button1)
         //ドラムロール表示用の配列作成
-        val fruits = arrayOf("りんご", "いちご", "みかん")
+        val fruits = arrayOf("C", "D", "E")
         //NumberPickerを取得
         val picker = findViewById<NumberPicker>(R.id.picker)
         //配列のインデックス最小、最大を指定
